@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-color: rgba(166, 136, 120, 0.951);
+      margin: 0;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+      padding: 0;
+    }
+    .container {
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      gap: 40px;
+      font-family: serif;
+      justify-content: center;
+      padding: 30px 100px;
+
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    nav {
+      width: 100%;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: rgba(166, 136, 120, 0.951);
+    }
+    nav ul li a {
+      font-size: 30px;
+      color: rgb(86, 46, 15);
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+      text-decoration: none;
+    }
+    nav ul {
+      list-style-type: none;
+      font-family: serif;
+      display: flex;
+      gap: 90px;
+      justify-content: center;
+      align-items: center;
+    }
+    .img1 {
+      width: 140px;
+      height: 140px;
+    }
+    input {
+      width: 250px;
+      text-align: center;
+      margin-left: 100px;
+      height: 30px;
+      background-color: rgb(86, 46, 15);
+      outline: none;
+      border-radius: 20px;
+      border: none;
+      border: 10px;
+    }
+    .main {
+      background-color: rgba(237, 234, 234, 0.756);
+      border: 3px solid rgb(109, 60, 11);
+      width: 950px;
+      margin-left: 300px;
+      margin-top: 100px;
+      margin-right: 300px;
+      text-align: center;
+      height: auto;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgba(166, 136, 120, 0.951);
+    }
+    .main h1 {
+      text-align: center;
+      color: antiquewhite;
+    }
+    .main p {
+      text-align: center;
+      color: rgb(16, 13, 9);
+    }
+    .main h4 {
+      text-align: center;
+    }
+    .main i {
+      text-align: center;
+      color: black;
+    }
+    .main:hover {
+      box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+  </style>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html">
+            <img
+              class="img1"
+              src="./assets/89a3523c-3055-498d-8b32-dae0880a2c58-removebg-preview.png"
+              alt=""
+            />
+          </a>
+        </li>
+        <li><a href="./about.html">About us</a></li>
+        <li><a href="./index.html">Coffees</a></li>
+        <li><a href="./page2.html">Deserts</a></li>
+        <li><a href="./contact.html">Contacts</a></li>
+        <input
+          type=" text"
+          id="searchInput"
+          placeholder="Find your love                                  🔍"
+        />
+      </ul>
+    </nav>
+    <section class="main">
+      <h1>Our Story</h1>
+      <p>
+        It all started with a dream — a dream to create a place where everyone
+        could feel warmth, comfort, and experience the true taste of great
+        coffee. We opened [BeanBrew] in [10year], inspired by the idea of
+        building not just a café, but a cozy space for meetings, relaxation, and
+        little moments of happiness. From the very first days, we chose the path
+        of quality: only the finest coffee beans, only fresh desserts, and
+        genuine care for every guest. We believe coffee is more than just a
+        drink. It’s a moment you want to remember. Over time, we became more
+        than just a coffee shop — we became a small community. Today, people
+        choose us for our cozy atmosphere, our flavors, the friendly smiles of
+        our baristas, and the chance to take a pause from the city's fast pace.
+        We are proud that:
+      </p>
+      <ul>
+        <li>☕ We've brewed over [X thousand] cups of coffee for our guests</li>
+
+        <li>🎂 We offer daily fresh, signature desserts</li>
+        <li>🌿 We support local producers and eco-initiatives</li>
+        <li>👥 We have hosted dozens of cozy events and workshops</li>
+      </ul>
+
+      <h4>And this is just the beginning of our story.</h4>
+    </section>
+    <div class="container"></div>
+    <script src="./about.js  "></script>
+  </body>
+</html>
